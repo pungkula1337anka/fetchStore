@@ -133,9 +133,18 @@ if __name__ == "__main__":
 
 You can now use the service like so:
 
+```
 service: shell_command.fetchstore
 data:
   store: "McDonalds"
-  location: "Paris, France" *(Optional)*
-  radius: "4000" *(Optional)*
+  location: "Paris, France" 
+  radius: "4000" `
+``` 
 
+You can also call the script:
+
+```
+service: shell_command.fetchstore
+data:
+  store: "McDonalds"
+```
